@@ -12,13 +12,17 @@ def add_task(task):
         for i, task in enumerate(tasks, start=1):
             print(f"{i}. {task}")
 # Step 4: Delete a task
-    def delete_task():
-        finished_task = input("Is task complete? y or n")
-        if finished_task == "y":
-            task_number = input("what tak did you finish")
-            task.pop(task_number)
-        else:
-            #idk yet
+    def delete_task2(index):
+        tasks.pop(index)
+        print(f"Deleted: {task}")
+    
+    #def delete_task():
+        #finished_task = input("Is task complete? y or n")
+        #if finished_task == "y":
+            #task_number = input("what tak did you finish")
+            #task.pop(task_number)
+
+
 
 
 # Step 5: Mark task complete
