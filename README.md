@@ -1,1 +1,3 @@
-# Todo-list-app
+
+HI! This is my TODO LISt
+I'm using PYTHON code
